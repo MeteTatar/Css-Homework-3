@@ -11,9 +11,9 @@ body
 /* Header Style */
 
 .top{
-    width: 100%;
+    width: 22%;
     height: 50px;
-    margin:10px 79%;
+    margin:10px 78%;
 }
 .top div{
     float: left;
@@ -62,7 +62,7 @@ body
  {
     background-color: rgb(34, 34, 34);
     width: 584px;
-    height: 46px;
+    height: 42px;
     color: white;
     box-shadow: none;
     border-radius: 24px;
@@ -79,5 +79,101 @@ body
  {
     background-color: rgb(62, 62, 62);
  }
+.mid2 button
+{
+    float: left;
+    margin:24px 5px 24px 5px ;
+    vertical-align: center;
+    margin-left: 12%;
+    height: 40px;
+    color: white;
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 5px;
+    width: 125px;
+    font-size:15px;
+}
+.mid3 button
+{
+    margin:24px 5px 24px 5px ;
+    vertical-align: center;
+    height: 40px;
+    color: white;
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 5px;
+    width: 210px;
+    font-size: 14px;
+    font-weight:lighter;
+}
+.mid2 button:hover
+{
+    border: 1px solid rgb(107, 107, 107);
+}
+.mid3 button:hover
+{
+    border: 1px solid rgb(107, 107, 107);
+}
+.footer
+{
+    background-color: #171717;
+    margin-top: 290px;
+    margin-bottom: 1px;
+    width: 100%;
+    height: 35px;
+}
+.footer1
+{
+    float: left;
+}
+.footer1 a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
 
+.footer1 a:hover
+{
+    text-decoration: underline;
+    color: white;
+}
+.footer2
+{
+    float: left;
+    margin-left: 24%;
+}
+.footer2 a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
 
+.footer2 a:hover
+{
+    text-decoration: underline;
+    color: white;
+}
+.footer2 img
+{
+    width: 14px;
+    height: 14px;
+}
+.footer3
+{
+    float: left;
+    margin-left: 35%;
+}
+.footer3 a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+
+.footer3 a:hover
+{
+    text-decoration: underline;
+    color: white;
+}
