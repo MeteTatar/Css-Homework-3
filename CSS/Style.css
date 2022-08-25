@@ -1,0 +1,33 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    background-color:rgb(40, 40, 40);
+    color: white;
+}
+.topgmail
+{
+    float: left;
+}
+.topimg
+{
+    float: left;
+}
+.topgmail a
+{
+    color: white;
+    text-decoration: none;
+}
+.topgmail a:hover
+{
+    text-decoration: underline;
+}
+.topimg a
+{
+    color: white;
+    text-decoration: none;
+}
+.topimg a:hover
+{
+    text-decoration: underline;
+}
