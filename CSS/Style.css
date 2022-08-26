@@ -49,6 +49,10 @@ body
     background-color: #8ab4f8;
     border-radius: 5px;
 }
+.top3 a:hover
+{
+    background-color: white;
+}
  /* İmage */
 
  .centerimg
@@ -114,13 +118,20 @@ body
 {
     border: 1px solid rgb(107, 107, 107);
 }
-.footer
+.footertop
 {
     background-color: #171717;
-    margin-top: 290px;
-    margin-bottom: 1px;
-    width: 100%;
-    height: 35px;
+    margin-top: 228px;
+    margin-bottom: 3px;
+    padding: 15px 35px;
+    width: 95.3%;
+
+}
+.footerbot
+{
+    background-color:#171717;
+    height: 20px;
+    padding: 15px 35px;
 }
 .footer1
 {
@@ -129,31 +140,25 @@ body
 .footer1 a
 {
     text-decoration: none;
-    color: white;
+    color: rgb(160, 160, 160);
     font-size: 13px;
 }
 
 .footer1 a:hover
 {
     text-decoration: underline;
-    color: white;
+    color: rgb(160, 160, 160);
 }
 .footer2
 {
     float: left;
-    margin-left: 24%;
+    margin-left: 20%;
+    color: rgb(160, 160, 160);
 }
 .footer2 a
 {
     text-decoration: none;
-    color: white;
     font-size: 13px;
-}
-
-.footer2 a:hover
-{
-    text-decoration: underline;
-    color: white;
 }
 .footer2 img
 {
@@ -163,17 +168,28 @@ body
 .footer3
 {
     float: left;
-    margin-left: 35%;
+    margin-left: 29%;
 }
 .footer3 a
 {
     text-decoration: none;
     color: white;
     font-size: 13px;
+    color: rgb(160, 160, 160);
+    margin-left: 18px;
 }
 
 .footer3 a:hover
 {
     text-decoration: underline;
     color: white;
+}
+.footer1 a
+{
+    margin-right: 17px;
+    color: rgb(160, 160, 160);
+}
+.footertop div
+{
+    color: rgb(160, 160, 160);
 }
